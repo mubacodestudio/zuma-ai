@@ -41,7 +41,7 @@ export default function ConversationPage() {
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
       const userMessage: ChatCompletionRequestMessage = {
-        role: "assistant",
+        role: "user",
         content: values.prompt,
       };
 
