@@ -22,13 +22,13 @@ const routes = [
   {
     label: "Conversation",
     icon: icon.MessageSquare,
-    href: "/coversation",
+    href: "/conversation",
     color: "text-emerald-500",
   },
   {
     label: "Image Generation",
     icon: icon.ImageIcon,
-    href: "/iamge",
+    href: "/image",
     color: "text-pink-700",
   },
   {

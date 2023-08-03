@@ -1,4 +1,5 @@
 import * as icon from "lucide-react"
+import * as z from "zod"
 
 export const tools = [
     {
@@ -37,3 +38,9 @@ export const tools = [
       href: '/code',
     },
   ];
+
+  export const formSchema = z.object({
+    prompt: z.string().min(1, {
+      message: "Prompt is required"
+    })
+  })
